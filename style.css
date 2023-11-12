@@ -3,6 +3,57 @@
 * {
     padding: 0;
     margin: 0;
-    list-style: 0;
-    text-decoration: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar, .footer {
+    background-color: #1F2937;
+}
+
+.hero-main, .logo a {
+    color: #F9FAF8;
+}
+
+.hero-secondary, .links li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.btn, .cta {
+    color: #3882F6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-sec {
+    background-color: #E5E7EB;   
+}
+
+.quote-txt {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+
+/* navbar start */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 24px;
+}
+
+.links {
+    display: flex;
 }
