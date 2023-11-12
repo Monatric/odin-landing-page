@@ -8,7 +8,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar, .footer {
+.navbar, .footer, .home {
     background-color: #1F2937;
 }
 
@@ -31,7 +31,7 @@
     color: #1F2937;
 }
 
-.quote-sec {
+.quote {
     background-color: #E5E7EB;   
 }
 
@@ -66,4 +66,10 @@
 .links {
     display: flex;
     gap: 24px;
+}
+/* navbar ends */
+
+/* home starts */
+.home {
+    min-height: 100vh;
 }
