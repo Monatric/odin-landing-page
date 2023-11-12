@@ -22,7 +22,11 @@
 }
 
 .btn, .cta {
-    color: #3882F6;
+    display: inline-block;
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    flex: 0 1 auto;
 }
 
 .info-header {
@@ -81,4 +85,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 128px;
+}
+
+.hero, .home-img {
+    flex: 0 1 50%;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.home-img {
+    background-color: grey;
 }
