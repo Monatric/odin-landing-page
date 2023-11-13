@@ -27,6 +27,8 @@
     padding: 8px 32px;
     border-radius: 8px;
     flex: 0 1 auto;
+    align-self: flex-start;
+    color: white;
 }
 
 .info-header {
@@ -56,6 +58,8 @@
 .navbar {
     display: flex;
     min-height: 70px;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-ctnr {
@@ -102,6 +106,19 @@
     font-weight: 900;
 }
 
+.hero-secondary {
+    margin: 8px 0;
+}
+
+.btn a {
+    color: white;
+}
+
 .home-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     background-color: grey;
+    height: 250px;
 }
