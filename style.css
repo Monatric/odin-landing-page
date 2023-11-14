@@ -173,3 +173,23 @@
 /* info ends */
 
 /* quote starts */
+.quote {
+    display: flex;
+    min-height: 100vh;
+}
+
+.quote-ctnr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 9.5em;
+}
+
+.quote-src {
+    align-self: flex-end;
+    padding-right: 2em;
+    color: #1F2937;
+    font-size: 24px;
+}
+/* quote ends */
