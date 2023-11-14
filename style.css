@@ -5,6 +5,7 @@
     margin: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -122,3 +123,53 @@
     background-color: grey;
     height: 250px;
 }
+/* home ends */
+
+/* info starts */
+.info {
+    display: flex;
+    min-height: 100vh;
+}
+
+.info-ctnr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-header {
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.item-ctnr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+}
+
+.item-box {
+    border: 5px solid #3882F6;
+    border-radius: 24px;
+    height: 200px;
+    width: 200px;
+}
+
+.item-desc {
+    color: #1F2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+    justify-content: center;
+    gap: 8px;
+}
+/* info ends */
+
+/* quote starts */
