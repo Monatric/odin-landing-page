@@ -22,13 +22,12 @@
     color: #E5E7EB;
 }
 
-.btn {
+.btn a{
     display: inline-block;
     background-color: #3882F6;
     padding: 8px 32px;
     border-radius: 8px;
     flex: 0 1 auto;
-    align-self: flex-start;
     color: white;
 }
 
