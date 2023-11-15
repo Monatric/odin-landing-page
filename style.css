@@ -205,6 +205,6 @@
     background-color: #3882F6;
     height: 150px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
