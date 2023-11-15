@@ -22,7 +22,7 @@
     color: #E5E7EB;
 }
 
-.btn, .cta {
+.btn {
     display: inline-block;
     background-color: #3882F6;
     padding: 8px 32px;
@@ -193,3 +193,19 @@
     font-size: 24px;
 }
 /* quote ends */
+
+/* cta starts */
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.cta-ctnr {
+    background-color: #3882F6;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
